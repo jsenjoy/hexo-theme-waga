@@ -1,21 +1,22 @@
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
 
-widgets: 
+assets:
+  cdn: //dn-cdnjscn.qbox.me/
+  self:
+  
+widgets:
 - search
 - category
 - tag
 - twitter
 
-excerpt_link:
+excerpt_link: more
 
 github:
-  username:  
+  username: jsenjoy
 
 twitter:
-  username: 
+  username:
   show_replies: false
   tweet_count: 5
 
@@ -26,8 +27,6 @@ addthis:
   twitter: true
   google: true
   pinterest: true
-
-fancybox: true
 
 google_analytics:
 domain:
