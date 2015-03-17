@@ -4,12 +4,12 @@
   <% } %>
   <div class="post-content">
     <header>
-      <%- partial('post/title') %>
       <% if (item.layout != 'page'){ %>
         <p class="published">
-          Published: <time datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></time>
+          <time datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></time>
         </p>
       <% } %>
+      <%- partial('post/title') %>
     </header>
     <div class="markdown-body">
       <% if (item.excerpt && index){ %>

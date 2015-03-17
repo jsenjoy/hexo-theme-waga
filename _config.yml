@@ -10,7 +10,7 @@ widgets:
 - tag
 - twitter
 
-excerpt_link: more
+excerpt_link: More
 
 github:
   username: jsenjoy
@@ -21,7 +21,7 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid:
   facebook: true
   twitter: true

@@ -2,30 +2,13 @@ icon-size = 0px
 icon-gap = 0px
 
 article
-  background #fff
   &.page
     .icon
       display none
 
-  &.post
-    .icon
-      &:before
-        content '\f016'
-
-  &.photo
-    .icon
-      &:before
-        content '\f030'
-
-  &.link
-    .icon
-      &:before
-        content '\f0c1'
-
     .title
       a
         &:after
-          content '\f08e'
           color color-meta
           font 12px font-icon
           padding-left 10px
@@ -33,26 +16,6 @@ article
 
   .post-content
     position relative
-
-  .gallery
-    overflow hidden
-    position relative
-    &:hover
-      .control
-        opacity 1
-
-    img
-      min-width 100%
-      max-width 100%
-      height auto
-      position absolute
-      top 0
-      left 0
-      opacity 0
-
-    .control
-      opacity 0
-      transition 0.3s
 
     .prev, .next
       position absolute
@@ -72,38 +35,14 @@ article
 
     .prev
       left 0
-      &:before
-        content '\f053'
-        left 10px
-
+    
     .next
       right 0
-      &:before
-        content '\f054'
-        right 10px
 
   header
-    .icon
-      width icon-size
-      height icon-size
-      margin-right icon-gap
-      position absolute
-      top 20px
-      left 20px
-      color color-link
-      @media screen and (max-width: 600px)
-        display none
-      &:before
-        position absolute
-        font 32px font-icon
-        top 0
-        left 0
-        width 32px
-        text-align center
-
     .published
       color #ccc
-      font-size 10pt
+      font-size 1.5em
 
     time
       color #888
@@ -115,8 +54,8 @@ article
 
     .title
       font-weight bold
-      margin-bottom 5px
-      text-decoration underline
+      margin-bottom 30px
+      font-size: 2.5em
       a
         color color-font
         &:hover
@@ -146,14 +85,6 @@ article
         padding-right 10px
         vertical-align middle
 
-      &.more-link
-        &:before
-          content '\f054'
-
-      &.comment-link
-        &:before
-          content '\f075'
-
     .categories, .tags
       position relative
       padding-left 25px
@@ -161,18 +92,6 @@ article
       &:before
         position absolute
         font 1.1em font-icon
-
-    .categories
-      &:before
-        content '\f07b'
-        top 2px
-        left 1px
-
-    .tags
-      &:before
-        content '\f02b'
-        top 3px
-        left 2px
 
     .addthis
       margin-top 15px
