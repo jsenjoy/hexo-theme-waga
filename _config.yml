@@ -2,7 +2,7 @@ menu:
 
 assets:
   cdn: //dn-cdnjscn.qbox.me/
-  self:
+  self: //jsenjoy.qiniudn.com/fronts/
   
 widgets:
 - search
@@ -10,7 +10,7 @@ widgets:
 - tag
 - twitter
 
-excerpt_link: More
+excerpt_link:
 
 github:
   username: jsenjoy
